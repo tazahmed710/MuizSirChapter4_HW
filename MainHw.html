@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <style>
+        .arimo-heading {
+            /* Descriptive class name */
+            font-family: "Arimo", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            /* Change weight as needed */
+            font-style: normal;
+        }
+
+        a {
+            color: #1e1cb3;
+        }
+
+        input[type=submit] {
+            border: 1px solid #1e1cb3;
+            background-color: transparent;
+            color: #1e1cb3;
+            padding: 16px 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Main Hw</title>
+</head>
+
+<body>
+    <h2 class="arimo-heading" style="text-align: center;color: #f92848;font-size: 35px;"><u>INTRODUCING OUR COMPANY</u>
+    </h2>
+    <p class="arimo-heading" style="text-align: center;color: #1e1cb3;font-size: 22px;">Holy Homes Software & IT is a
+        <b>software</b> <u>company.</u> <b><u>We design a<sup>2</sup>+<sub>b</sub><sup>3</sup></u></b>
+    </p>
+
+    <div class="arimo-heading" style="border: 1px solid #1e1cb3;">
+        <img src="IMG/sir.jpg" alt="SIR" width="98%" height="480px" style="margin-left: 2%;margin-bottom: 1%;">
+    </div>
+    <div class="arimo-heading" style="border: 1px solid #1e1cb3;">
+        <div style="max-width: fit-content;margin-left: auto;margin-right: auto;padding: 1%;font-size: 22px;">
+            <a href="#">HOME</a>
+            <a href="#">NEWS</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+    <div class="arimo-heading" style="border: 1px solid #1e1cb3; color: #1e1cb3; display: flex;">
+        <div style="width: 100%;border: 1px solid #1e1cb3;">
+            <ul>
+                <li>Home</li>
+                <li>News
+                    <ol type="1">
+                        <li>Latest News
+                            <ol type="i">
+                                <li>Politics</li>
+                                <li>Game
+                                    <ul type="circle">
+                                        <li>Football</li>
+                                        <li>Cricket</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li>Contact</li>
+                <li>Gallery</li>
+            </ul>
+        </div>
+        <div style="border: 1px solid #1e1cb3; width: 100%; padding-left: 1%;padding-top: 1%;">
+            Search Engine
+            <ol>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Yahoo</a></li>
+                <li><a href="#">Bing</a></li>
+            </ol>
+            Registration Form <br>
+            <style>
+                * {
+                  box-sizing: border-box;
+                }
+                
+                input[type=text], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  resize: vertical;
+                }
+                
+                input[type=password], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  resize: vertical;
+                }
+                
+                label {
+                  padding: 12px 12px 12px 0;
+                  display: inline-block;
+                }
+                
+                .col-25 {
+                  float: left;
+                  width: 25%;
+                  margin-top: 6px;
+                }
+                
+                .col-75 {
+                  float: left;
+                  width: 75%;
+                  margin-top: 6px;
+                }
+                
+                /* Clear floats after the columns */
+                .row:after {
+                  content: "";
+                  display: table;
+                  clear: both;
+                }
+                
+                /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                  .col-25, .col-75, input[type=submit] {
+                    width: 100%;
+                    margin-top: 0;
+                  }
+                }
+                </style>
+            <div class="container">
+                <form action="#">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Name:</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Password:</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="password" id="lname" name="lastname">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country">Division:</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="country" name="country">
+                        <option value="">Dhaka</option>
+                                  <option value="">Barisal</option>
+                                  <option value="">Chittagong</option>
+                                  <option value="">Khulna</option>
+                                  <option value="">Mymensingh</option>
+                                  <option value="">Rajshahi</option>
+                                  <option value="">Rangpur</option>
+                                  <option value="">Sylhet</option>
+                      </select>
+                    </div>
+                  </div><br>
+                  <input type="submit" value="Sign in">
+              
+                </form>
+              </div>
+              
+            <br>
+        </div>
+    </div>
+    <div class="arimo-heading" style="border: 1px solid #1e1cb3;">
+        <p style="padding: 1%;font-size: 20px; color: #1e1cb3;">
+            <b>Information technology</b> <b><s>is the study</s></b>, design, develo<sub>pment,</sub>implementation,
+            <s>support or management of computer </s> based <b>information</b> systems-particularly software
+            applications and computer hardware.
+        </p>
+        <p class="arimo-heading" style="text-align: center;color: #f92848;font-size: 22px;">IT workers help ensure that
+            computers work well for people.</p>
+    </div>
+    <div class="arimo-heading" style="border: 1px solid #1e1cb3; color: #1e1cb3; padding: 1%;">
+        <div style="align-items: center;">
+            <table border="1" style="border-collapse: collapse;margin-left: auto;margin-right: auto;">
+                <tr style="padding: 6%;">
+                    <td colspan="2" style="text-align: center;">Biodatra</td>
+                </tr>
+                <tr>
+                    <td>
+                        Name &nbsp;&nbsp;&nbsp;: &nbsp;David <br>
+                        Father &nbsp;&nbsp;: &nbsp;JON <br>
+                        Address: &nbsp;USA <br>
+                        Blood &nbsp; &nbsp;: &nbsp;A+
+                    </td>
+                    <td>
+                        <u>Address</u><br>
+                        <b>Kazi Nazrul Islam Road<br>Meherpur</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p style="text-align: center;margin-bottom: 0;padding-top: 1%;">
+            <u>
+                Copyright &copy; 2004 <a href="https://tazahmed.netlify.app/"><b>Taz</b></a>
+            </u>
+        </p>
+    </div>
+</body>
+
+</html>
